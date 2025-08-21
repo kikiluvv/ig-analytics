@@ -187,4 +187,8 @@
         max-width: fit-content;
         font-size: x-small;
     }
+
+    .clearBtn {
+        margin-top: 2vh;
+    }
 }

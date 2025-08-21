@@ -9,18 +9,18 @@ export default function Footer() {
                     🌐 ig-analytics <span>v0.1</span>
                 </p>
                 <nav className={styles.footerNav}>
-                    <a href="https://github.com/your-repo" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kikiluvv/ig-analytics" target="_blank" rel="noreferrer">
                         GitHub
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                        Twitter
+                    <a href="mailto:1kikiluvv@gmail.com" target="_blank" rel="noreferrer">
+                        Contact
                     </a>
-                    <a href="https://openai.com" target="_blank" rel="noreferrer">
+                    <a href="/docs" rel="noreferrer">
                         Docs
                     </a>
                 </nav>
                 <p className={styles.copy}>
-                    © {new Date().getFullYear()} ig-analytics. all rights reserved.
+                    © {new Date().getFullYear()} appeal2heaven... all rights reserved.
                 </p>
             </div>
         </footer>

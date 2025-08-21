@@ -25,3 +25,15 @@
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+@media (max-width: 500px) {
+    .followback-page {
+        padding: 1rem;
+    }
+    .followback-title {
+        font-size: 1.75rem;
+    }
+    .clearBtn {
+        margin-top: 1vh;
+    }
+}
