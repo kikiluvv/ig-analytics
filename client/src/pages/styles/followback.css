@@ -1,0 +1,27 @@
+.followback-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.followback-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--ink);
+}
+
+.followback-desc {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.followback-content {
+    background: var(--panel);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
