@@ -11,6 +11,7 @@ export default function Nav() {
                 <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/follow-back">Followers</Link></li>
+                    <li><Link to="/anon-story-viewer">Story Viewer</Link></li>
                     <li><Link to="/docs">Docs</Link></li>
                 </ul>
             </div>

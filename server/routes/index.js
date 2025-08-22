@@ -1,5 +1,6 @@
 import express from "express";
-import scraperRoutes from "./scraper.js";   // <- your scraper endpoints
+import scraperRoutes from "./scraper.js";   
+import storyRoutes from "./anonStory.js";
 
 const router = express.Router();
 
@@ -10,5 +11,6 @@ router.get("/", (req, res) => {
 
 // mount other routers
 router.use("/scrape", scraperRoutes);
+router.use("/stories", storyRoutes);
 
 export default router;

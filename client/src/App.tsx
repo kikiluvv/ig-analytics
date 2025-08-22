@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Docs from "./pages/Docs";
 import FollowBack from "./pages/FollowBack";
+import AnonStory from "./pages/AnonStory";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="docs" element={<Docs />} />
           <Route path="follow-back" element={<FollowBack />} />
-          {/* future plugins can go here */}
+          <Route path="anon-story-viewer" element={<AnonStory />} />
         </Route>
       </Routes>
     </Router>
